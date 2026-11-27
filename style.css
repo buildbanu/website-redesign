@@ -1,4 +1,4 @@
-/* banû — an engineering field journal. */
+/* Banu — typography, project illustrations, and a restrained purple identity. */
 :root  {
   --paper: #eeece5;
   --ink: #171715;
@@ -70,7 +70,7 @@ a:focus-visible, button:focus-visible  {
   margin-inline: var(--gutter);
 }
 
-.label, .small-note, figcaption, .flow-step, .technical-note, .footer-note, .feature-specs dt, .back-link  {
+.label, figcaption, .flow-step, .footer-note, .back-link  {
   font: 10px/1.6 var(--mono);
   letter-spacing: .025em;
 }
@@ -79,7 +79,7 @@ a:focus-visible, button:focus-visible  {
   text-transform: uppercase;
 }
 
-.small-note, .drawing-note  {
+.drawing-note  {
   color: var(--muted);
 }
 
@@ -211,151 +211,9 @@ h2  {
   letter-spacing: -.045em;
 }
 
-.home-intro  {
-  padding-top: 64px;
-}
-
-.intro-label  {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.home-intro h1  {
-  margin-top: 40px;
-}
-
-.intro-copy  {
-  width: 42%;
-  margin-left: 50%;
-  margin-top: 40px;
-  max-width: 500px;
-}
-
-.intro-copy p  {
-  font-size: 17px;
-  line-height: 1.6;
-  max-width: 470px;
-}
-
-.intro-copy .text-link  {
-  margin-top: 16px;
-  min-width: 164px;
-}
-
-.field-drawing  {
-  margin-top: 56px;
-}
-
-.field-drawing img  {
-  width: 100%;
-  border-block: 1px solid var(--rule);
-}
-
-.field-drawing figcaption  {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  color: var(--muted);
-  padding-top: 14px;
-}
-
-.field-drawing figcaption span:last-child  {
-  font-size: 9px;
-}
-
-.context-section  {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  padding-top: 112px;
-  padding-bottom: 112px;
-}
-
-.context-section h2  {
-  max-width: 700px;
-}
-
-.context-section p:not(.label)  {
-  margin-top: 32px;
-  max-width: 550px;
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1.8;
-}
-
 .dark-section  {
   background: var(--dark);
   color: var(--paper);
-}
-
-.resku-feature  {
-  padding: 64px var(--gutter) 96px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px 10%;
-}
-
-.feature-index  {
-  grid-column: 1/-1;
-  display: flex;
-  justify-content: space-between;
-  border-top: 2px solid var(--accent);
-  padding-top: 18px;
-}
-
-.feature-index .label  {
-  color: #c2bdb3;
-}
-
-.feature-name h2  {
-  font-size: clamp(80px, 9vw, 150px);
-  letter-spacing: -.07em;
-  line-height: 1;
-}
-
-.feature-name p  {
-  font-size: 19px;
-  line-height: 1.45;
-  margin-top: 24px;
-}
-
-.feature-name .text-link  {
-  margin-top: 40px;
-  color: var(--accent);
-  min-width: 220px;
-}
-
-.feature-content  {
-  padding-top: 10px;
-}
-
-.feature-summary  {
-  font-size: 25px;
-  line-height: 1.4;
-  letter-spacing: -.025em;
-  max-width: 415px;
-}
-
-.feature-specs  {
-  margin-top: 40px;
-}
-
-.feature-specs>div  {
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 20px;
-  border-top: 1px solid #45443e;
-  padding: 20px 0;
-}
-
-.feature-specs dt  {
-  color: #b5aea3;
-}
-
-.feature-specs dd  {
-  font-size: 13px;
 }
 
 .engineering-note  {
@@ -434,7 +292,6 @@ h2  {
   font-size: 9px;
 }
 
-/* Innovations: a product entry, followed by its design requirements. */
 .page-title  {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -511,42 +368,6 @@ h2  {
   margin-top: 14px;
 }
 
-.design-principles  {
-  border-top: 1px solid var(--rule);
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  padding-block: 80px 112px;
-}
-
-.principles-content h2  {
-  margin-bottom: 40px;
-}
-
-.editorial-list>div  {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 40px;
-  border-top: 1px solid var(--rule);
-  padding: 24px 0;
-}
-
-.editorial-list dt  {
-  font-size: 16px;
-}
-
-.editorial-list dd  {
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.principles-content .text-link  {
-  margin-top: 24px;
-  min-width: 240px;
-}
-
-/* An actual explanatory diagram, with no simulated telemetry. */
 .architecture-section  {
   padding-bottom: 64px;
 }
@@ -641,13 +462,6 @@ h2  {
   color: var(--muted);
 }
 
-.technical-note  {
-  display: block;
-  margin-top: 32px;
-  font-size: 9px;
-  color: var(--muted);
-}
-
 .related-system  {
   display: flex;
   gap: 40px;
@@ -661,7 +475,6 @@ h2  {
   min-width: 260px;
 }
 
-/* Resku uses the same language, reversed onto black. */
 .product-page  {
   background: var(--dark);
   color: var(--paper);
@@ -832,7 +645,7 @@ h2  {
     max-width: 1650px;
     margin-inline: auto;
   }
-  .resku-feature, .resku-details, .site-footer  {
+  .resku-details, .site-footer  {
     padding-inline: max(var(--gutter), calc((100% - 1650px)/2));
   }
 }
@@ -926,14 +739,8 @@ h2  {
     background: currentColor;
     transform: rotate(90deg) translateX(-1px);
   }
-  .home-intro  {
-    padding-top: 40px;
-  }
-  .label, .small-note  {
+  .label  {
     font-size: 9px;
-  }
-  .intro-label>.small-note  {
-    display: none;
   }
   h1  {
     font-size: clamp(38px, 8.3vw, 58px);
@@ -943,87 +750,14 @@ h2  {
   h2  {
     font-size: clamp(30px, 6.3vw, 42px);
   }
-  .home-intro h1  {
-    margin-top: 32px;
-  }
-  .intro-copy  {
-    width: auto;
-    margin-left: 18%;
-    margin-top: 32px;
-  }
-  .intro-copy p  {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-  .intro-copy .text-link  {
-    font-size: 12px;
-    margin-top: 12px;
-  }
-  .field-drawing  {
-    margin-top: 40px;
-  }
-  .field-drawing img  {
-    min-height: 210px;
-    width: 100%;
-    object-fit: cover;
-    object-position: 33% center;
-  }
-  .field-drawing figcaption  {
-    flex-direction: column;
-    gap: 5px;
-    font-size: 8px;
-  }
-  .field-drawing figcaption span:last-child  {
-    font-size: 7px;
-  }
-  .context-section, .engineering-note  {
+  .engineering-note  {
     grid-template-columns: 1fr;
     gap: 32px;
     padding-block: 64px;
   }
-  .context-section p:not(.label), .engineering-note p:not(.label)  {
+  .engineering-note p:not(.label)  {
     font-size: 14px;
     margin-top: 24px;
-  }
-  .resku-feature  {
-    padding: 40px var(--gutter) 56px;
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .feature-index  {
-    grid-column: 1;
-  }
-  .feature-name h2  {
-    font-size: 90px;
-  }
-  .feature-name p  {
-    font-size: 18px;
-    margin-top: 16px;
-  }
-  .feature-name .text-link  {
-    margin-top: 24px;
-    font-size: 12px;
-  }
-  .feature-content  {
-    padding: 0;
-  }
-  .feature-summary  {
-    font-size: 22px;
-    max-width: 320px;
-  }
-  .feature-specs  {
-    margin-top: 32px;
-  }
-  .feature-specs>div  {
-    grid-template-columns: 60px 1fr;
-    gap: 16px;
-    padding: 18px 0;
-  }
-  .feature-specs dt  {
-    font-size: 9px;
-  }
-  .feature-specs dd  {
-    font-size: 12px;
   }
   .engineering-note .text-link  {
     margin-top: 24px;
@@ -1104,25 +838,6 @@ h2  {
   .entry-drawing figcaption  {
     font-size: 8px;
   }
-  .design-principles  {
-    grid-template-columns: 1fr;
-    gap: 32px;
-    padding-block: 48px 64px;
-  }
-  .principles-content h2  {
-    margin-bottom: 32px;
-  }
-  .editorial-list>div  {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 24px 0;
-  }
-  .editorial-list dt  {
-    font-size: 18px;
-  }
-  .editorial-list dd  {
-    font-size: 14px;
-  }
   .architecture-section  {
     padding-bottom: 48px;
   }
@@ -1176,10 +891,6 @@ h2  {
   .essay-copy p  {
     font-size: 14px;
     margin-bottom: 18px;
-  }
-  .technical-note  {
-    margin-top: 24px;
-    font-size: 8px;
   }
   .related-system  {
     display: block;
@@ -1266,14 +977,8 @@ h2  {
 }
 
 @media (max-width: 360px)  {
-  .home-intro h1  {
-    font-size: 34px;
-  }
   .page-title h1  {
     font-size: 34px;
-  }
-  .feature-summary  {
-    font-size: 20px;
   }
 }
 
@@ -1283,5 +988,446 @@ h2  {
   }
   *, *:before, *:after  {
     transition: none !important;
+  }
+}
+
+.masthead  {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.brand  {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+.wordmark  {
+  letter-spacing: -.045em;
+}
+
+.product-page .site-header  {
+  border-color: var(--rule);
+}
+
+.site-footer  {
+  background: var(--paper);
+}
+
+.footer-main .footer-motto  {
+  color: var(--ink);
+  font-size: 15px;
+  letter-spacing: -.015em;
+}
+
+.company-hero  {
+  padding: 72px var(--gutter) 28px;
+  background: #1b1620;
+  color: var(--paper);
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  gap: 64px 8%;
+}
+
+.hero-main  {
+  min-width: 0;
+}
+
+.hero-main>.label  {
+  color: #c59cdb;
+}
+
+.hero-main h1  {
+  margin-top: 32px;
+  font-size: clamp(60px, 8.3vw, 126px);
+  letter-spacing: -.06em;
+  line-height: .99;
+}
+
+.company-introduction  {
+  max-width: 440px;
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #c9c0ce;
+}
+
+.hero-main .text-link  {
+  margin-top: 24px;
+  min-width: 210px;
+  color: var(--accent);
+}
+
+.identity-plate  {
+  background: #e6dce9;
+  color: var(--ink);
+  align-self: end;
+  min-height: 390px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.identity-mark  {
+  display: block;
+  width: min(100%, 250px);
+  height: 250px;
+  background: linear-gradient(180deg, #b56fdc 0%, #000 100%);
+  mask: url('Images/banu-mark.png') center/contain no-repeat;
+  -webkit-mask: url('Images/banu-mark.png') center/contain no-repeat;
+}
+
+.identity-plate figcaption  {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  border-top: 1px solid #bfb1c5;
+  padding-top: 18px;
+  gap: 20px;
+}
+
+.identity-plate figcaption>span:first-child  {
+  font: 500 40px/1 var(--sans);
+  letter-spacing: -.05em;
+}
+
+.identity-plate figcaption>span:last-child  {
+  font: 9px/1.5 var(--mono);
+}
+
+.hero-footnote  {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid #4d4055;
+  padding-top: 20px;
+}
+
+.hero-footnote>span  {
+  color: #b4a8bd;
+  font: 10px/1.6 var(--mono);
+}
+
+.hero-footnote>a  {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-footnote>a:hover  {
+  color: var(--accent);
+}
+
+.company-statement, .portfolio-context  {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  padding-block: 104px;
+}
+
+.company-statement h2, .portfolio-context h2  {
+  max-width: 700px;
+}
+
+.company-statement p:not(.label), .portfolio-context p:not(.label)  {
+  margin-top: 28px;
+  max-width: 570px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.company-statement p+p:not(.label)  {
+  margin-top: 16px;
+}
+
+.project-spotlight  {
+  padding: 48px var(--gutter) 72px;
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 56px 8%;
+}
+
+.spotlight-heading  {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 2px solid var(--accent);
+  padding-top: 18px;
+}
+
+.spotlight-heading>span  {
+  font: 10px/1.6 var(--mono);
+  color: #bfb6c5;
+}
+
+.spotlight-copy  {
+  align-self: center;
+}
+
+.spotlight-copy h2  {
+  font-size: clamp(70px, 7vw, 115px);
+  letter-spacing: -.06em;
+  line-height: 1;
+}
+
+.spotlight-copy p  {
+  max-width: 330px;
+  font-size: 19px;
+  line-height: 1.55;
+  margin-top: 28px;
+  color: #c9c0ce;
+}
+
+.spotlight-copy .text-link  {
+  color: var(--accent);
+  margin-top: 32px;
+  min-width: 220px;
+}
+
+.spotlight-drawing  {
+  background: var(--paper);
+  color: var(--ink);
+  align-self: center;
+  padding: 16px;
+}
+
+.spotlight-drawing img  {
+  width: 100%;
+}
+
+.spotlight-drawing figcaption  {
+  color: var(--muted);
+  padding: 12px 8px 4px;
+  border-top: 1px solid var(--rule);
+  font-size: 8px;
+}
+
+.project-discipline  {
+  display: block;
+  margin-top: 24px;
+  font: 9px/1.8 var(--mono);
+  color: var(--muted);
+}
+
+.portfolio-context  {
+  border-top: 1px solid var(--rule);
+}
+
+.portfolio-context .text-link  {
+  margin-top: 24px;
+}
+
+.engineering-example  {
+  padding-top: 8px;
+  padding-bottom: 72px;
+}
+
+.example-intro  {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  gap: 50px;
+  padding-block: 48px;
+  border-top: 1px solid var(--ink);
+}
+
+.example-intro h2  {
+  font-size: clamp(30px, 3vw, 48px);
+}
+
+.example-intro>p:not(.label)  {
+  max-width: 400px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.essay-copy .text-link  {
+  font-size: 12px;
+}
+
+@media (min-width: 1800px)  {
+  .company-hero, .project-spotlight  {
+    padding-inline: max(var(--gutter), calc((100% - 1650px)/2));
+  }
+}
+
+@media (max-width: 1000px)  {
+  .company-hero  {
+    gap: 48px 5%;
+  }
+  .identity-plate  {
+    padding: 24px;
+    min-height: 330px;
+  }
+  .identity-mark  {
+    height: 210px;
+  }
+  .identity-plate figcaption>span:first-child  {
+    font-size: 32px;
+  }
+  .identity-plate figcaption>span:last-child  {
+    font-size: 8px;
+  }
+  .company-introduction  {
+    font-size: 14px;
+  }
+  .example-intro  {
+    grid-template-columns: .65fr 1.2fr 1.4fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 700px)  {
+  .company-hero  {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    gap: 40px;
+  }
+  .hero-main h1  {
+    font-size: clamp(58px, 13.5vw, 90px);
+    margin-top: 24px;
+  }
+  .company-introduction  {
+    font-size: 14px;
+    margin-top: 28px;
+    max-width: 400px;
+  }
+  .hero-main .text-link  {
+    font-size: 12px;
+    margin-top: 20px;
+    min-width: 200px;
+  }
+  .identity-plate  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    min-height: 0;
+    padding: 22px;
+  }
+  .identity-mark  {
+    width: 100%;
+    height: 130px;
+  }
+  .identity-plate figcaption  {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-top: 0;
+    border-left: 1px solid #bfb1c5;
+    padding: 8px 0 8px 20px;
+    gap: 14px;
+  }
+  .identity-plate figcaption>span:first-child  {
+    font-size: 34px;
+  }
+  .identity-plate figcaption>span:last-child  {
+    font-size: 9px;
+  }
+  .hero-footnote  {
+    gap: 20px;
+    align-items: start;
+  }
+  .hero-footnote>span  {
+    font-size: 8px;
+    max-width: 160px;
+  }
+  .hero-footnote>a  {
+    font-size: 10px;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .company-statement, .portfolio-context  {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-block: 64px;
+  }
+  .company-statement p:not(.label), .portfolio-context p:not(.label)  {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+  .company-statement p+p:not(.label)  {
+    margin-top: 16px;
+  }
+  .project-spotlight  {
+    grid-template-columns: 1fr;
+    padding-block: 40px 56px;
+    gap: 32px;
+  }
+  .spotlight-heading  {
+    gap: 16px;
+    align-items: start;
+  }
+  .spotlight-heading .label  {
+    font-size: 8px;
+  }
+  .spotlight-heading>span  {
+    font-size: 8px;
+  }
+  .spotlight-copy h2  {
+    font-size: 80px;
+  }
+  .spotlight-copy p  {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .spotlight-copy .text-link  {
+    margin-top: 24px;
+    font-size: 12px;
+  }
+  .spotlight-drawing  {
+    padding: 10px;
+  }
+  .spotlight-drawing figcaption  {
+    font-size: 7px;
+    padding-inline: 4px;
+  }
+  .project-discipline  {
+    font-size: 8px;
+    margin-top: 20px;
+  }
+  .example-intro  {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-block: 40px;
+  }
+  .example-intro h2  {
+    font-size: 34px;
+  }
+  .example-intro>p:not(.label)  {
+    font-size: 14px;
+  }
+  .engineering-example  {
+    padding-bottom: 48px;
+  }
+  .footer-main .footer-motto  {
+    font-size: 12px;
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 360px)  {
+  .hero-main h1  {
+    font-size: 53px;
+  }
+  .identity-plate  {
+    gap: 16px;
+    padding: 18px;
+  }
+  .identity-mark  {
+    height: 110px;
+  }
+  .identity-plate figcaption  {
+    padding-left: 16px;
+  }
+  .identity-plate figcaption>span:first-child  {
+    font-size: 30px;
   }
 }

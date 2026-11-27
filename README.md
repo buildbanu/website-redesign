@@ -1,4 +1,4 @@
-# banû website
+# Banu website
 
 A buildless, responsive website using HTML, CSS, and JavaScript.
 
@@ -8,21 +8,21 @@ From this directory, run `python -m http.server 8766 --bind 127.0.0.1`, then vis
 
 ## Pages
 
-- `index.html` — overview, purpose, system introduction, and architecture
-- `innovations.html` — Resku introduction
-- `engineering.html` — system architecture and engineering approach
-- `Products/resku.html` — Resku details
+- `index.html` — Banu, its motto, and its scope across AI projects and solutions
+- `innovations.html` — Projects, with Resku as the selected project
+- `engineering.html` — AI, software, systems, and the engineering approach
+- `Products/resku.html` — the Resku project and its architecture
 
 ## Design
 
-The supplied logo is preserved at `Images/banu-mark.png`. The header and footer use its silhouette as a CSS mask with a gradient from `#b56fdc` to `#000000`. Shared colors and typefaces are set in `style.css`.
+The company name is **Banu**, with a capital B and no accent. Its motto is **Building what's next**.
 
-The visual language follows an engineering field journal: warm paper, black typography, fine rules, and restrained purple accents. The supplied logo is the only gradient. All page headings use solid colors.
+The supplied logo is preserved at `Images/banu-mark.png`. Its silhouette uses a CSS gradient from `#b56fdc` to `#000000`. Every displayed logo sits on a light background, including on the dark Resku page. The vector favicon also has an integrated light background.
 
-The floor plans and system-flow diagrams explain sensing and processing. They are conceptual illustrations, not measured data or representations of verified product geometry. A compact floor plan is used on smaller screens.
+Warm paper, dark purple, solid typography, fine rules, and selected purple accents form the shared identity. The logo is the only gradient. The layouts vary with the content, and Resku is presented as one project within Banu rather than the company's entire purpose.
 
-Each page has a specific role: Overview introduces the operating environment; Innovations presents Resku and its design requirements; Engineering explains the signal flow; Resku describes the system functions. There are no simulated live feeds, decorative hardware renders, or repeated card grids.
+The floor plans and system-flow diagrams belong to the Resku project. They are conceptual illustrations, not measured data or representations of verified product geometry. A compact floor plan is used on smaller screens. No additional projects, deployments, customers, or performance statistics are implied.
 
 Instrument Sans and IBM Plex Mono load from Google Fonts, with local fallbacks. The site has no framework, package installation, build step, or backend dependency. JavaScript supports the mobile navigation, including Escape dismissal, focus containment, and disabling background interaction while the menu is open.
 
-Page structure, copy, drawings, and implementation are original. The site does not reproduce Anduril's design.
+Page structure, copy, drawings, and implementation are original. Anduril informs the company-first presentation and product storytelling, not the page design. Design references include [NN/G on typography and hierarchy](https://www.nngroup.com/articles/why-does-design-look-good/) and [Smashing Magazine on content-led art direction](https://www.smashingmagazine.com/2018/04/art-directing-web-css-grid/).
