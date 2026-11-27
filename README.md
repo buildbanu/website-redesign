@@ -19,10 +19,20 @@ The company name is **Banu**, with a capital B and no accent. Its motto is **Bui
 
 The supplied logo is preserved at `Images/banu-mark.png`. Its silhouette uses a CSS gradient from `#b56fdc` to `#000000`. Every displayed logo sits on a light background, including on the dark Resku page. The vector favicon also has an integrated light background.
 
-Warm paper, dark purple, solid typography, fine rules, and selected purple accents form the shared identity. The logo is the only gradient. The layouts vary with the content, and Resku is presented as one project within Banu rather than the company's entire purpose.
+Near-black surfaces, warm white typography, fine rules, and selected purple accents form the shared identity. Light backgrounds are reserved for the supplied gradient logo. The layouts vary with the content, and Resku is presented as one project within Banu rather than the company's entire purpose.
 
 The floor plans and system-flow diagrams belong to the Resku project. They are conceptual illustrations, not measured data or representations of verified product geometry. A compact floor plan is used on smaller screens. No additional projects, deployments, customers, or performance statistics are implied.
 
-Instrument Sans and IBM Plex Mono load from Google Fonts, with local fallbacks. The site has no framework, package installation, build step, or backend dependency. JavaScript supports the mobile navigation, including Escape dismissal, focus containment, and disabling background interaction while the menu is open.
+Inter Tight and IBM Plex Mono load from Google Fonts, with local fallbacks. The site has no framework, package installation, build step, or backend dependency. JavaScript supports the mobile navigation, including Escape dismissal, focus containment, and disabling background interaction while the menu is open.
 
 Page structure, copy, drawings, and implementation are original. Anduril informs the company-first presentation and product storytelling, not the page design. Design references include [NN/G on typography and hierarchy](https://www.nngroup.com/articles/why-does-design-look-good/) and [Smashing Magazine on content-led art direction](https://www.smashingmagazine.com/2018/04/art-directing-web-css-grid/).
+
+## Cinematic design
+
+This revision builds on the accepted `de4f7f7` version with a cinematic dark theme and selective text animation.
+
+The main compositions share a twelve-column grid. The Resku drawings occupy larger media sections; the company and engineering copy uses compact editorial columns. The dark masthead remains visible while scrolling. Each gradient logo has a light tile or panel to preserve its visibility.
+
+Entrance animations run once, with no parallax or scroll hijacking. Reduced-motion preferences disable them, and changing that preference while a page is open reveals all content immediately. Page copy, navigation destinations, and original image files are preserved from the accepted version. Dark variants of the Resku drawings change only their colors; their geometry and labels are unchanged.
+
+Selected headlines reveal along their authored line breaks. Small section signposts have a brief, one-time character-resolve effect, and project links roll their labels on hover or keyboard focus. Assistive technology receives the complete authentic text throughout; changing to reduced motion cancels active text effects and restores the original labels immediately. Body paragraphs remain static.
