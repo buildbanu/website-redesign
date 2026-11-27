@@ -1,61 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovations | banû</title>
-    <link rel="icon" type="image/png" href="Images/banuFavicon.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Explore Resku, an integrated sensing and edge-computing architecture for emergency response.">
+  <title>Innovations | banû</title>
+  <link rel="icon" href="Images/banu-mark.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-    <header>
-        <div class="nav-container">
-            <a href="index.html" class="logo-link">
-                <img src="Images/banuText.png" alt="banû logo" class="logo-img">
-            </a>
-            <nav class="nav-links">
-                <a href="index.html">Overview</a>
-                <a href="innovations.html" class="active">Innovations</a>
-                <a href="engineering.html">Engineering</a>
-            </nav>
-        </div>
-    </header>
-
-    <main class="page-header">
-        <div class="container">
-            <span class="badge">System Architecture</span>
-            <h1>Deployed Hardware Lineup</h1>
-            
-            <div class="systems-grid">
-                <div class="system-card">
-                    <div>
-                        <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem;">
-                            <img src="Images/reskuLogo.png" alt="Resku Logo" style="height: 40px; width: auto;">
-                            <span class="system-tag" style="margin: 0;">Tactical Response</span>
-                        </div>
-                        <h3>Resku</h3>
-                        <p>An integrated LiDAR and edge-processing suite built for emergency rescue operations. Generates real-time 3D spatial models in zero-visibility buildings while tracking vital health telemetry.</p>
-                    </div>
-                    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 1.5rem;">
-                        <span style="font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.1em;">Status: Active Deployment</span>
-                        <a href="Products/resku.html" class="btn btn-primary">System Specs</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container footer-container">
-            <img src="Images/banuText.png" alt="banû logo" class="footer-logo">
-            <p>&copy; 2026 banû. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="banû home"><span class="brand-mark" aria-hidden="true"></span><span class="wordmark">banû</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><i aria-hidden="true"></i></button>
+    <nav id="primary-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="innovations.html" aria-current="page">Innovations</a><a href="engineering.html">Engineering</a></nav>
+    <a class="header-link" href="Products/resku.html">Explore Resku <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+  <section class="page-intro section-pad"><p class="eyebrow">banû / Innovations</p><h1>Purpose-built.<br><em>Mission-led.</em></h1><div class="intro-bottom"><p>Integrated systems for a clearer understanding of critical environments.</p><span class="section-note">01 / Resku</span></div></section>
+  <section class="system-feature section-pad"><a class="product-banner" href="Products/resku.html"><div class="product-art" aria-hidden="true"><div class="sensor-device"><span class="device-id">banû / RESKU</span><div class="sensor-lens"><i></i></div><div class="device-vents"></div><span class="device-caption">SPATIAL SENSING UNIT</span></div><span class="art-caption">Concept visualization / sensor architecture</span><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div><div class="product-copy"><p class="eyebrow">Emergency response / Integrated sensing</p><h2>Resku</h2><p>Designed for structural firefighting and rescue operations. An integrated LiDAR and edge-processing architecture that combines spatial mapping with thermal and responder telemetry.</p><span class="text-link">Explore the system <span aria-hidden="true">↗</span></span></div></a></section>
+  <section class="section-pad approach"><p class="eyebrow">One connected architecture</p><h2>A clearer picture.<br>From every sensor.</h2><div class="three-columns"><article><span>01 / Spatial</span><h3>Map what’s ahead.</h3><p>LiDAR-based spatial mapping helps build an understanding of complex interiors.</p></article><article><span>02 / Thermal</span><h3>Look beyond visibility.</h3><p>Thermal sensing adds another layer of environmental awareness when visibility is limited.</p></article><article><span>03 / Human</span><h3>Keep people in view.</h3><p>Responder telemetry connects the environment with the people moving through it.</p></article></div></section>
+  <section class="small-cta section-pad"><h2>Explore what’s inside.</h2><a class="button" href="engineering.html">Our engineering <span aria-hidden="true">↗</span></a></section>
+</main>
+  <footer class="site-footer">
+    <div class="footer-top"><a class="brand" href="index.html" aria-label="banû home"><span class="brand-mark" aria-hidden="true"></span><span class="wordmark">banû</span></a><p>Clarity in the unknown.</p><a class="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
+    <div class="footer-bottom"><span>© 2026 banû</span><span>Autonomous systems. Human purpose.</span><nav aria-label="Footer navigation"><a href="index.html">Overview</a><a href="innovations.html" aria-current="page">Innovations</a><a href="engineering.html">Engineering</a></nav></div>
+  </footer>
 </body>
 </html>
