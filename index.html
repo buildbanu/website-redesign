@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#000000">
-  <meta name="description" content="Autonomous sensing and edge-computing systems for critical environments. Explore Resku and the engineering at banû.">
-  <title>banû | Clarity in the unknown</title>
+  <meta name="theme-color" content="#eeece5">
+  <meta name="description" content="Sensor arrays and onboard computing for structural firefighting, rescue operations, and hazardous environments.">
+  <title>banû — Sensor hardware & edge software</title>
   <link rel="icon" href="Images/banu-mark.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -15,23 +18,47 @@
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="banû home"><span class="brand-mark" aria-hidden="true"></span><span class="wordmark">banû</span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><i aria-hidden="true"></i></button>
-    <nav id="primary-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="innovations.html">Innovations</a><a href="engineering.html">Engineering</a></nav>
-    <a class="header-link" href="Products/resku.html">Explore Resku <span aria-hidden="true">↗</span></a>
+    <nav id="primary-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="innovations.html">Innovations</a>
+        <a href="engineering.html">Engineering</a>
+    </nav>
   </header>
   <main id="main">
-  <section class="hero">
-    <div class="scan-scene" aria-hidden="true"><canvas class="spatial-canvas"></canvas><div class="scan-cross cross-a">+</div><div class="scan-cross cross-b">+</div><div class="scene-label">SPATIAL RECONSTRUCTION<br><span>ILLUSTRATIVE POINT CLOUD</span></div><div class="scene-coordinate">X / 042<br>Y / 018<br>Z / 006</div></div>
-    <div class="hero-content"><p class="eyebrow"><span class="signal-dot"></span>Autonomous systems / banû</p><h1>Clarity in<br>the <em>unknown.</em></h1><p class="hero-description">We build sensing and edge-computing systems for the people who move toward the unknown.</p><a class="button" href="innovations.html">Explore our systems <span aria-hidden="true">↗</span></a></div>
-    <div class="hero-bottom"><span>Engineered for critical environments</span><a href="#mission">Discover banû <span aria-hidden="true">↓</span></a><button class="scan-toggle" aria-pressed="false">Pause scan <span aria-hidden="true">Ⅱ</span></button></div>
-  </section>
-  <section class="mission section-pad" id="mission"><div class="section-heading"><p class="eyebrow">01 / Our purpose</p><span class="section-note">Human purpose. Machine precision.</span></div><div class="mission-layout"><h2>When visibility ends,<br><span>awareness shouldn’t.</span></h2><div class="mission-copy"><p>Smoke. Collapsed structures. Environments where a clear picture can change everything.</p><p>banû brings together rugged sensor hardware, spatial intelligence, and onboard computing to help responders understand what lies ahead.</p><a class="text-link" href="engineering.html">Inside our engineering <span aria-hidden="true">↗</span></a></div></div></section>
-  <section class="system-feature section-pad"><div class="section-heading"><p class="eyebrow">02 / Our systems</p><span class="section-note">Built around the mission</span></div><a class="product-banner" href="Products/resku.html"><div class="product-art" aria-hidden="true"><div class="sensor-device"><span class="device-id">banû / RESKU</span><div class="sensor-lens"><i></i></div><div class="device-vents"></div><span class="device-caption">SPATIAL SENSING UNIT</span></div><span class="art-caption">Concept visualization / sensor architecture</span><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div><div class="product-copy"><p class="eyebrow">01 / Emergency response</p><h2>Resku</h2><p>Spatial awareness for the moments that matter. LiDAR, thermal sensing, and responder telemetry in one integrated architecture.</p><span class="text-link">Discover Resku <span aria-hidden="true">↗</span></span></div></a></section>
-  <section class="capabilities section-pad"><div class="section-heading"><p class="eyebrow">03 / The architecture</p><span class="section-note">From sensor to understanding</span></div><div class="capability-title"><h2>Intelligence.<br>At the edge.</h2><p>Hardware and software designed together.<br>Awareness built closer to the source.</p></div><div class="capability-list"><a href="engineering.html#sensing"><span class="row-index">01</span><h3>Sense the environment</h3><p>LiDAR and thermal sensor fusion</p><span aria-hidden="true">↗</span></a><a href="engineering.html#compute"><span class="row-index">02</span><h3>Process on board</h3><p>FPGA-accelerated edge computing</p><span aria-hidden="true">↗</span></a><a href="engineering.html#connect"><span class="row-index">03</span><h3>Connect the team</h3><p>Mesh networking and responder telemetry</p><span aria-hidden="true">↗</span></a></div></section>
-  <section class="closing section-pad"><p class="eyebrow">Engineering at banû</p><h2>Built for the<br><em>world ahead.</em></h2><a class="button" href="engineering.html">Explore the architecture <span aria-hidden="true">↗</span></a><span class="closing-mark" aria-hidden="true"></span></section>
-</main>
+    <section class="home-intro page-margin">
+      <div class="intro-label"><p class="label">Sensor hardware &amp; edge software</p></div>
+      <h1>Sensing for<br>critical environments.</h1>
+      <div class="intro-copy"><p>We design sensor arrays and onboard computing systems for structural firefighting, rescue operations, and hazardous spaces.</p><a class="text-link" href="innovations.html">Our systems<span aria-hidden="true">↗</span></a></div>
+    </section>
+    <figure class="field-drawing page-margin">
+      <picture><source media="(max-width: 700px)" srcset="Images/sensing-plan-mobile.svg" width="600" height="480"><img src="Images/sensing-plan.svg" alt="Conceptual floor plan showing a sensor node, a LiDAR field of view, and a route through a building." width="1200" height="480"></picture>
+      <figcaption><span>Fig. 01 — Spatial sensing in a structural interior</span><span>Conceptual illustration / Not measured data</span></figcaption>
+    </figure>
+    <section class="context-section page-margin" id="mission">
+      <p class="label">The operating environment</p>
+      <div><h2>Smoke changes what<br>a responder can see.</h2><p>Spatial, thermal, and biometric information each describe a different part of the same operation. Bringing them together helps a team understand the environment and the people inside it.</p></div>
+    </section>
+    <section class="resku-feature dark-section">
+      <div class="feature-index"><span class="label">Our systems</span><span class="label">01 / Resku</span></div>
+      <div class="feature-name"><h2>Resku</h2><p>Integrated sensing for<br>emergency response.</p><a class="text-link" href="Products/resku.html">Read about Resku<span aria-hidden="true">↗</span></a></div>
+      <div class="feature-content"><p class="feature-summary">An architecture that connects the space, the conditions, and the responder.</p><dl class="feature-specs"><div><dt>Spatial</dt><dd>LiDAR mapping of structural interiors</dd></div><div><dt>Thermal</dt><dd>Another view of the environment</dd></div><div><dt>Human</dt><dd>Responder and exposure telemetry</dd></div></dl></div>
+    </section>
+    <section class="engineering-note page-margin">
+      <p class="label">Engineering at banû</p><div><h2>Processing belongs<br>close to the sensor.</h2><p>Our work spans custom hardware, sensor fusion, FPGA-accelerated inference, and mesh networking. The architecture is designed for places where cloud and GPS connectivity may be unavailable.</p><a class="text-link" href="engineering.html">Inside the architecture<span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
   <footer class="site-footer">
-    <div class="footer-top"><a class="brand" href="index.html" aria-label="banû home"><span class="brand-mark" aria-hidden="true"></span><span class="wordmark">banû</span></a><p>Clarity in the unknown.</p><a class="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
-    <div class="footer-bottom"><span>© 2026 banû</span><span>Autonomous systems. Human purpose.</span><nav aria-label="Footer navigation"><a href="index.html" aria-current="page">Overview</a><a href="innovations.html">Innovations</a><a href="engineering.html">Engineering</a></nav></div>
+    <div class="footer-main">
+      <a class="brand" href="index.html" aria-label="banû home"><span class="brand-mark" aria-hidden="true"></span><span class="wordmark">banû</span></a>
+      <p>Sensor hardware.<br>Edge software.</p>
+      <nav aria-label="Footer navigation">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="innovations.html">Innovations</a>
+        <a href="engineering.html">Engineering</a>
+      </nav>
+      <a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="footer-note"><span>© 2026 banû</span><span>Autonomous systems for critical environments</span></div>
   </footer>
 </body>
 </html>

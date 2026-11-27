@@ -17,8 +17,12 @@ From this directory, run `python -m http.server 8766 --bind 127.0.0.1`, then vis
 
 The supplied logo is preserved at `Images/banu-mark.png`. The header and footer use its silhouette as a CSS mask with a gradient from `#b56fdc` to `#000000`. Shared colors and typefaces are set in `style.css`.
 
-The spatial scan, sensor illustration, and schematic are original illustrative graphics. They do not represent live telemetry or verified physical product geometry. The scan can be paused and respects the visitor's reduced-motion preference.
+The visual language follows an engineering field journal: warm paper, black typography, fine rules, and restrained purple accents. The supplied logo is the only gradient. All page headings use solid colors.
 
-Fonts load from Google Fonts, with local fallbacks. The site has no framework, package installation, build step, or backend dependency.
+The floor plans and system-flow diagrams explain sensing and processing. They are conceptual illustrations, not measured data or representations of verified product geometry. A compact floor plan is used on smaller screens.
 
-The visual direction uses Anduril as a reference for scale and editorial pacing; page structure, copy, artwork, and implementation are original to this redesign.
+Each page has a specific role: Overview introduces the operating environment; Innovations presents Resku and its design requirements; Engineering explains the signal flow; Resku describes the system functions. There are no simulated live feeds, decorative hardware renders, or repeated card grids.
+
+Instrument Sans and IBM Plex Mono load from Google Fonts, with local fallbacks. The site has no framework, package installation, build step, or backend dependency. JavaScript supports the mobile navigation, including Escape dismissal, focus containment, and disabling background interaction while the menu is open.
+
+Page structure, copy, drawings, and implementation are original. The site does not reproduce Anduril's design.

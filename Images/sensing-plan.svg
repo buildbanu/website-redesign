@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" fill="none">
+<title>Conceptual spatial sensing plan</title><desc>A structural interior is seen from above. A sensor node measures depth across a room, with a route shown through adjoining spaces.</desc>
+<g stroke="#bcbab2" stroke-width="1"><path d="M58 34H1142M58 446H1142M58 34V446M1142 34V446"/><path d="M166 28V40M382 28V40M598 28V40M814 28V40M1030 28V40M166 440V452M382 440V452M598 440V452M814 440V452M1030 440V452"/></g>
+<g stroke="#242421" stroke-width="5" stroke-linecap="square"><path d="M138 108H514M610 108H1058V370H874M778 370H138V108"/><path d="M514 108V220M514 304V370M802 108V250M802 336V370M514 250H622M706 250H1058M138 250H284M366 250H428"/></g>
+<g stroke="#85847c" stroke-width="1"><path d="M514 220H430M430 220A84 84 0 0 0 514 304M802 250H716M716 250A86 86 0 0 0 802 336M514 108V12M610 108V12" stroke-dasharray="3 4"/></g>
+<path d="M312 330L146 260L146 116L505 116L505 214L430 220L431 248L366 250Z" fill="#b56fdc" fill-opacity=".16"/>
+<g stroke="#9760b5" stroke-width="1"><path d="M312 330L146 116M312 330L216 116M312 330L303 116M312 330L394 116M312 330L505 116M312 330L505 170M312 330L430 220M312 330L366 250M312 330L146 260"/></g>
+<path d="M312 330L404 330L459 280L459 177L560 177L560 154L700 154L742 193L742 291L909 291" stroke="#242421" stroke-width="1.5" stroke-dasharray="5 6"/>
+<circle cx="312" cy="330" r="7" fill="#111110"/><circle cx="312" cy="330" r="12" stroke="#111110"/>
+<circle cx="909" cy="291" r="5" fill="#b56fdc" stroke="#242421"/>
+<g stroke="#62625b" stroke-width="1"><path d="M292 342L238 402H152M909 301L956 402H1058M370 153L411 66H498"/></g>
+<g font-family="monospace" font-size="10" letter-spacing="1" fill="#41413b"><text x="152" y="420">SENSOR NODE</text><text x="898" y="420">RESPONDER ROUTE</text><text x="413" y="59">DEPTH SAMPLING</text><text x="636" y="214">STRUCTURAL INTERIOR</text></g>
+</svg>
